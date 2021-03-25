@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <select multiple size="10" id="selectSX" ondblclick="setSelected()">
+    <option id="Html" value="HTML">HTML</option>
+    <option id="Css" value="CSS">CSS</option>
+    <option id="Google" value="Google">Google</option>
+    <option id="Javascript" value="Javascript">Javascript</option>
+    <option id="jQuery" value="jQuery">jQuery</option>
+    <option id="Regex" value="Regex">Regex</option>
+    <option id="PHP" value="PHP">PHP</option>
+    <option id="MySQL" value="MySQL">MySQL</option>
+    <option id="XML" value="XML">XML</option>
+    <option id="JSON" value="JSON">JSON</option>
+  </select>
+
+  <div class="controls">
+    <button class="bottoneSeleziona" onclick="selezionaElemento()">Seleziona Elemento</button>
+    <button class="bottoneRimuovi" onclick="rimuoviElemento()">Rimuovi Elemento</button>
+    <button class="bottoneSelezionaTutti" onclick="selezionaTutti()">Seleziona Tutti</button>
+    <button class="bottoneRimuoviTutti" onclick="rimuoviTutti()">Rimuovi Tutti</button>
+  </div>
+
+  <select multiple id="selectDX" size="10"></select>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
